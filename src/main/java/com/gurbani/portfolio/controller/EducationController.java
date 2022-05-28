@@ -18,7 +18,7 @@ public class EducationController {
     @Autowired
     private EducationRepository repository;
 
-    @GetMapping("/education")
+    @GetMapping("education")
     public List<Education> verEducacion() {
         return repository.findAll();
     
